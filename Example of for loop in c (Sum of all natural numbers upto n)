@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{int a,b, c=0;
+printf("Enter an integer:");
+scanf("%d",&a);
+for (b=5; b<=a; ++b)
+{ c+=b;
+    
+}
+printf("The sum of all numbers upto the given number is \n %d",c);
+return 0;
+}
