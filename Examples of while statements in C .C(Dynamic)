@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{int i;
+printf("Enter i");
+scanf("%d",&i);
+while(i<100)
+{printf("\n%d",i);
+i++;
+}
+return 0;
+}
